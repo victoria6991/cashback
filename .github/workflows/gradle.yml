@@ -8,6 +8,7 @@
 name: Java CI with Gradle
 
 on: [push, pull_request]
+branches: [master, testng, junit4]
 
 jobs:
   build:
