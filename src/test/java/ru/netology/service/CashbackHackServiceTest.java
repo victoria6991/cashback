@@ -36,7 +36,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldNotAdvice995() {
         CashbackHackService cashbackHackService = new CashbackHackService();
-        int amount = 1006;
+        int amount = 1005;
         int actual = cashbackHackService.remain(amount);
         int expected = 995;
         assertEquals(actual, expected);
