@@ -17,7 +17,7 @@ public class CashbackHackServiceTest {
     }
 
     @Test
-    public void shouldAdvice999() {
+    public void shouldAdvice9git99() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 1;
         int actual = cashbackHackService.remain(amount);
